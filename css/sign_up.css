@@ -1,79 +1,99 @@
 
 
-.nav ul{display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  cursor: pointer;
-  
-
-}
-.nav ul a:hover {
-  background-color: goldenrod;
-}
-.forms {
-  border-radius: 4px;
-  margin-top: 50px;
-  gap: 1orem;
-  padding: 10px 20px;
-  align-items: center;
-  justify-content: left;
-  box-shadow:  2px 2px 15px rgba(0,0,0.9);
-  gap:1em;
-}
-label {
-  font-weight: bold;
-  display: inline-block;
-  width: 240px;
-  text-align:left;
-
-}
-.other label{
-  text-align: left;
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-input {
+.container {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
-  gap: 2em;
-  margin: 5px;
 }
+
+.nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .fill_in {
   display: flex;
-  justify-content: space-around;
-  
+  justify-content: space-between;
 }
-.forms_2{
-    margin-top:50px;
-    box-shadow:  2px 2px 15px rgba(0,0,0.9);
-justify-content: space-around;
-    padding-bottom: 2em;
-border-radius: 4px;
 
+.forms {
+  width: 48%;
 }
+
+.forms_2 {
+  width: 48%;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.forms label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.forms input[type="text"],
+.forms input[type="password"],
+.forms input[type="file"] {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forms_2 input[type="text"],
+.forms_2 input[type="password"],
+.forms_2 input[type="file"] {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forms_2 label {
+  display: block;
+  margin-bottom: 5px;
+}
+
 .submit {
-  align-items: center;
-  margin-top:20px;
-  margin-left: 200px;
-  justify-content: space-around;
-  display: flex;
-
-}
-.footer{
-  background-color:goldenrod;
-  height:10vh;
-  color: aliceblue;
-  border-radius: 20px;
+  text-align: center;
   margin-top: 20px;
-  padding:5%;
-  border: 2px solid black;
-  display: flex;
-  gap:8em;
 }
-button{
-  border: none;
-  padding:10px 20px;
-  margin-top:20px;
-  cursor:pointer;
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
-button:hover{
-  background-color: goldenrod;
+
+.footer img {
+  margin-right: 10px;
 }
