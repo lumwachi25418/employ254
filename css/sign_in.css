@@ -1,0 +1,46 @@
+
+
+.nav ul {
+    display:flex;
+    justify-content: space-around;
+padding: 20px;
+}
+
+.nav ul li a:hover{
+    background-color:goldenrod
+}
+.sign_in{
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    gap:2em;
+    width: 80%;
+    /* align-items: center; */
+}
+label{
+    font-weight: bold;
+}
+button{
+    
+padding:10px 20px;
+border: none;
+cursor:pointer;
+border-radius: 4px;
+}
+button:hover{
+    background-color: goldenrod;
+}
+.footer{
+    background-color:goldenrod;
+    height: 10vh;
+    color: aliceblue;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:5%;
+    border: 2px solid black;
+    display: flex;
+    gap:8em;
+}
+input{
+    padding: 2em;
+}

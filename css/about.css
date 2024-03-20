@@ -1,0 +1,39 @@
+.nav ul {
+    list-style:none;
+    justify-content: space-around;
+display: flex;
+}
+
+.nav ul a:hover{
+    background-color: goldenrod;
+}
+.about_us{
+    align-items: center;
+    justify-content: space-around;
+    box-shadow:  2px 2px 15px rgba(0,0,0.9);
+width: 50vw;
+margin-left:300px;
+padding:20px;
+border-radius: 4px;
+}
+
+.footer{
+    background-color:goldenrod;
+    height: 10vh;
+    color: aliceblue;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:5%;
+    border: 2px solid black;
+    gap:8em;
+    display:flex;
+
+}
+.map{
+    margin-top: 20px;
+    box-shadow:  2px 2px 15px rgba(0,0,0.9);
+margin-left:300px ;
+padding: 20px;
+padding-right: -60px;
+border-radius: 4px;
+}

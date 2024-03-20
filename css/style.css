@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+
+
+}
+.container{
+    margin-top: 20px;
+}
+.nav ul{
+    display:flex;
+    justify-content: space-around;
+/* background-color: goldenrod; */
+}
+
+
+.nav ul li a:hover{
+    background-color:goldenrod
+}
+
+.header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px 50px;
+    color:darkgoldenrod;
+    background-color: white;
+margin: 20px 400px ;
+padding:1em;
+box-shadow:  2px 2px 15px rgba(0,0,0.9);
+width: 50%;
+}
+.hero_section{
+margin-top: 50px;
+ display: flex;
+    border: 2px solid grey;
+    align-items: center;
+    justify-content: space-around;
+    padding:50px ;
+    box-shadow:  2px 2px 15px rgba(0,0,0.9);
+
+}
+.testimonials{
+    display:flex;
+    
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow:  2px 2px 15px rgba(0,0,0.9);
+
+   img {border: 2px solid grey;
+        border-radius:20px ;
+        height: 50vh;
+margin-top: 25px;
+    }
+    
+    .feedback{
+        margin:20px;
+        border: 2px solid grey;
+        padding: 5%;
+        border-radius: 20px;
+        box-shadow:  2px 2px 15px rgba(0,0,0.9);
+
+    }
+    .why-us{
+        border:2px solid grey;
+        padding: 5%;
+        border-radius: 20px;
+        margin:20px;
+        box-shadow:  2px 2px 15px rgba(0,0,0.9);
+
+    }
+}
+
+.footer{
+    background-color:goldenrod;
+    height: 30vh;
+    color: aliceblue;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:5%;
+    border: 2px solid black;
+    display: flex;
+    gap: 8em;
+}
+
+
+
