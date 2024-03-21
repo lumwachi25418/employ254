@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const searchTerm = this.value.trim().toLowerCase();
 
         profileContainers.forEach(container => {
-            const profileName = container.querySelector('h1').textContent.trim().toLowerCase();
+            const profileName = container.querySelector('p').textContent.trim().toLowerCase();
             if (profileName.includes(searchTerm)) {
                 container.style.display = 'block';
             } else {

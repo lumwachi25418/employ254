@@ -20,10 +20,11 @@ submitbtn.addEventListener("click",function(e){
         }
     })
     console.log(signin_error)
+    window.location.href="profile.html"
 })
 
 
-co
+
 
 
 

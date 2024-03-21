@@ -94,4 +94,6 @@ submitbtn1.addEventListener("click", function(e) {
         }
         console.log(employee);
     }
+    window.location.href="sign_in.html"
+
 });
