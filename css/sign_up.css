@@ -12,7 +12,12 @@
   padding: 0;
   overflow: hidden;
 }
-
+.signuperror{
+  color:red;
+}
+.sign{
+  color:red
+}
 .nav li {
   float: left;
 }
