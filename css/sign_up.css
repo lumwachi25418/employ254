@@ -1,99 +1,104 @@
 
 
-/* General styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
 
 .nav {
-  background-color: #333;
-  padding: 10px 0;
+  /* background-color: #333; */
+  overflow: hidden;
 }
 
 .nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
-.nav ul li {
-  display: inline;
-  margin-right: 10px;
+.nav li {
+  float: left;
 }
 
-.nav ul li a {
-  color: #fff;
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-.fill_in {
-  display: flex;
-  justify-content: space-between;
+.nav li a:hover {
+  background-color: #111;
 }
 
+
 .forms {
-  width: 48%;
+  float: left;
+  width: 50%;
 }
 
 .forms_2 {
-  width: 48%;
-}
-
-.header {
-  text-align: center;
-  margin-bottom: 20px;
+  float: right;
+  width: 40%;
+  margin-top: 30px;
 }
 
 .forms label {
-  display: block;
-  margin-bottom: 5px;
+  font-weight: bold;
+}
+.forms_2 label{
+  font-weight: bold;
 }
 
 .forms input[type="text"],
 .forms input[type="password"],
 .forms input[type="file"] {
-  width: calc(100% - 10px);
+  width: 100%;
   padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  margin: 5px 0;
+  box-sizing: border-box;
 }
 
 .forms_2 input[type="text"],
 .forms_2 input[type="password"],
 .forms_2 input[type="file"] {
-  width: calc(100% - 10px);
+  width: 100%;
   padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+.forms_2 button{
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }
 
-.forms_2 label {
-  display: block;
-  margin-bottom: 5px;
+
+
+.forms button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }
 
-.submit {
-  text-align: center;
-  margin-top: 20px;
+.forms button:hover {
+  opacity: 0.8;
 }
+
 
 .footer {
   background-color: #333;
-  color: #fff;
-  padding: 20px;
+  color: white;
   text-align: center;
+  padding: 20px;
 }
 
 .footer img {
-  margin-right: 10px;
+  margin: 0 5px;
 }

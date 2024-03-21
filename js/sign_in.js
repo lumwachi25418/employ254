@@ -11,8 +11,8 @@ function validateForm() {
     
     if (username === "correct_username" && password === "correct_password") {
         alert("Login successful!");
-        localStorage.setItem(username)
-        localStorage.getItem(username)
+        localStorage.setItem(username," ")
+        localStorage.getItem(username," ")
         return true;
     } else {
         alert("Incorrect username or password. Please try again.");
